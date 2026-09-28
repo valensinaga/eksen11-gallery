@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galeri Eksen 11 — Banyuwangi</title>
+<meta name="description" content="Galeri karya Eksen 11 UKMK Etalase, tema Banyuwangi. 14 November 2026, Universitas Jember.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a href="#top" class="logo">Eksen 11</a>
+  <button class="burger" id="burger" aria-label="Buka menu" aria-expanded="false"><span></span><span></span></button>
+  <nav id="menu" aria-label="Navigasi utama">
+    <a href="#tentang">Tentang</a><a href="#open">Open Submission</a><a href="#kolab">Kolaborasi UKM</a><a href="#jadwal">Jadwal</a><a href="#kontak">Kontak</a>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <p class="hello">Galeri karya UKMK Etalase</p>
+    <h1>Eksen 11</h1>
+    <p class="tema">Mistis Tradisional Banyuwangi</p>
+    <p class="count" id="count" aria-live="off"></p>
+    <p class="where">Sabtu, 14 November 2026, Universitas Jember</p>
+    <a class="btn" href="#open">Lihat karya</a>
+  </section>
+
+  <section id="tentang" class="wrap band"><div class="inner">
+    <h2>Tentang Eksen</h2>
+    <p class="prose">Eksen adalah festival seni tahunan UKMK Etalase. Pada Eksen 11, karya foto dan lukisan dipamerkan dengan tema Banyuwangi, tanah yang menyimpan kisah mistis dan tradisi yang masih hidup. Galeri ini memuat karya peserta open submission dan karya kolaborasi UKM se-Jember, dan diperbarui langsung oleh panitia.</p>
+  </div></section>
+
+  <section id="karya" class="wrap"><div class="inner">
+    <div class="filters" id="filters" role="group" aria-label="Filter status karya"></div>
+    <p class="status" id="status" role="status">Memuat karya...</p>
+    <h2 id="open">Open Submission</h2>
+    <div class="grid" id="gridOS"></div>
+    <h2 id="kolab" class="gap">Galeri Kolaborasi UKM Se-Jember</h2>
+    <div class="grid" id="gridUKM"></div>
+  </div></section>
+
+  <section id="jadwal" class="wrap band"><div class="inner">
+    <h2>Jadwal dan Denah</h2>
+    <dl class="info">
+      <div><dt>Tanggal</dt><dd>Sabtu, 14 November 2026</dd></div>
+      <div><dt>Lokasi</dt><dd>Universitas Jember</dd></div>
+      <div><dt>Jam dan denah stand</dt><dd>Akan diumumkan panitia</dd></div>
+    </dl>
+  </div></section>
+
+  <section id="kontak" class="wrap"><div class="inner">
+    <h2>Kontak</h2>
+    <p class="prose">Ingin bertanya atau membeli karya? Hubungi Valen lewat WhatsApp, atau ikuti kabar terbaru di Instagram.</p>
+    <div class="cta">
+      <a class="btn" id="waBtn" href="#" target="_blank" rel="noopener">WhatsApp Valen</a>
+      <a class="btn ghost" id="igBtn" href="#" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div></section>
+</main>
+<footer><p>© <span id="year"></span> UKMK Etalase, Eksen 11.</p></footer>
+
+<dialog id="dlg" aria-labelledby="dJudul">
+  <div class="dbox">
+    <img id="dImg" alt="">
+    <div class="dtext">
+      <button class="close" id="dClose" aria-label="Tutup">×</button>
+      <h3 id="dJudul"></h3>
+      <p class="meta" id="dMeta"></p>
+      <p id="dDesk" class="desk"></p>
+      <a class="btn" id="dWa" target="_blank" rel="noopener" hidden>Tanya admin via WhatsApp</a>
+    </div>
+  </div>
+</dialog>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+[
+ {"id":"1","judul":"Ubin Kertas Berlipat (contoh)","gambar_url":"images/karya1.jpg","fotografer":"Nama Fotografer","asal":"Open Submission","deskripsi":"Karya contoh untuk menguji galeri. Deretan ubin bermotif biru, kuning, dan merah dengan tekstur kertas berlipat, disusun rapat seperti kain perca yang bercerita tentang keberagaman.","jual":"dijual","draft":false},
+ {"id":"2","judul":"Percakapan di Bawah Api (contoh)","gambar_url":"images/karya2.jpg","fotografer":"Nama Fotografer","asal":"Open Submission","deskripsi":"Karya contoh untuk menguji galeri. Dua tokoh wayang berhadapan di antara nyala api dan ornamen batik, dengan aksara di langit malam yang penuh bintang.","jual":"terjual","draft":false},
+ {"id":"3","judul":"Penari dengan Kipas (contoh)","gambar_url":"images/karya3.jpg","fotografer":"Nama Fotografer","asal":"UKM Contoh","deskripsi":"Karya contoh untuk menguji galeri kolaborasi. Seorang penari bermahkota bunga putih memegang kipas, dilukis dengan sapuan tebal berwarna merah muda dan jingga.","jual":"tidak","draft":false}
+]
