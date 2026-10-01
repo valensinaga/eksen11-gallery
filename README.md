@@ -1,9 +1,9 @@
 # Galeri Eksen 11
 
-Website galeri karya Eksen 11 UKMK Etalase (tema Banyuwangi, 14 November 2026, Universitas Jember). HTML, Plain CSS, dan JavaScript DOM.
+Website galeri karya Eksen 11 (tema Banyuwangi, 14 November 2026, Universitas Jember). HTML, Plain CSS, dan JavaScript DOM.
 
 ## Screenshot
-> Tambahkan screenshot desktop, tablet, dan mobile di sini.
+
 
 ## Penjelasan singkat
 - Responsive mobile-first (Grid, Flexbox, rem, media query).
@@ -20,4 +20,4 @@ Website galeri karya Eksen 11 UKMK Etalase (tema Banyuwangi, 14 November 2026, U
 5. Buka `admin.html` untuk masuk dan mengelola karya.
 
 ## Deployment
-Link: _isi dengan link GitHub Pages / Netlify / Vercel_
+Link: https://valensinaga.github.io/eksen11-gallery/
