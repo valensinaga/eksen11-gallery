@@ -20,4 +20,4 @@ Website galeri karya Eksen 11 (tema Banyuwangi, 14 November 2026, Universitas Je
 5. Buka `admin.html` untuk masuk dan mengelola karya.
 
 ## Deployment
-Link: https://valensinaga.github.io/eksen11-gallery/
+Link: https://valensinaga.github.io/eksen11-gallery
